@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "mcskins",
+	"version": "${version}",
+	"name": "MC-Skins",
+	"description": "A dressing room and local skin editor for Minecraft Java Edition.",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["de.catsmc.mcskins.client.McSkinsClient"]
+	},
+	"mixins": ["mcskins.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1 <26.4",
+		"java": ">=25",
+		"fabric-api": ">=0.145.1 <0.162"
+	}
+}
